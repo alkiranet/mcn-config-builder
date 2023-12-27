@@ -1,0 +1,31 @@
+[aws_vpc]
+num_networks = 8
+num_subnets = 3
+account_id = 12345678
+region = us-east-2
+credential = aws
+cxp = us-east-2
+group = nonprod
+segment = business
+file_name = networks
+
+[azure_vnet]
+num_networks = 5
+num_subnets = 3
+resource_group = resource-group-name
+region = eastus
+credential = azure
+cxp = us-east-2
+group = nonprod
+segment = business
+file_name = networks
+
+[gcp_vpc]
+num_networks = 4
+num_subnets = 3
+region = us-east4
+credential = gcp
+cxp = us-east-2
+group = nonprod
+segment = business
+file_name = networks
