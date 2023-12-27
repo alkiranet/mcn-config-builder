@@ -1,0 +1,2 @@
+# MCN - Config Builder
+When building a new environment for _proof-of-concepts_, _connectivity testing_, or any other number of use cases, why worry about trivial details like _subnetting_ or naming conventions?
