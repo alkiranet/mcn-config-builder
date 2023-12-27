@@ -32,7 +32,7 @@ This script will generate:
 
 :warning: The cloud network CIDR _(at the VPC/VNet/VCN level)_ should not overlap with the CIDR used for the [alkira_segment](https://registry.terraform.io/providers/alkiranet/alkira/latest/docs/resources/segment). This script uses a random integer selected from the range **0, 100** for the second octet of the _/16_. The segment CIDR should be in the range of 10.**101-254**.x.0/24.
 
-## Install Dependencies
+## Install dependencies
 ```shell
 pip3 install -r requirements.txt
 ```
