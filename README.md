@@ -89,7 +89,7 @@ module "aws_vpc" {
   source  = "alkiranet/aws-builder/alkira"
 
   # Path to .yml configuration files
-  config_file = "./config/networks.yaml"
+  config_file = "./networks.yaml"
 
 }
 
@@ -97,7 +97,7 @@ module "azure_vnet" {
   source  = "alkiranet/azure-builder/alkira"
 
   # Path to .yml configuration files
-  config_file = "./config/networks.yaml"
+  config_file = "./networks.yaml"
 
 }
 
@@ -105,7 +105,7 @@ module "gcp_vpc" {
   source  = "alkiranet/gcp-builder/alkira"
 
   # Path to .yml configuration files
-  config_file = "./config/networks.yaml"
+  config_file = "./networks.yaml"
 
 }
 ```
