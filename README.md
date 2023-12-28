@@ -10,7 +10,7 @@ This script will generate:
         characters = string.ascii_lowercase + string.digits
         return ''.join(random.choice(characters) for _ in range(length))
   ```
-- **Random _/16s_ CIDRs** between **0-100**
+- **Random _/16_ CIDRs** between **0-100**
 
   ```python
    def generate_random_cidr_16(self) -> str:
